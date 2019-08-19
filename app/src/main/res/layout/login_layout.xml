@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        app:srcCompat="@drawable/relax_logo" />
+
+
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#681D1D"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#F3D8D3  "
+        android:textColorHint="#A6F7F3F3"
+        android:textColorLink="#CD111111"
+        android:textCursorDrawable="?attr/colorControlHighlight"
+        app:backgroundTint="#80000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Username"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:textColor="#BA0202"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#681D1D"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#F3D8D3  "
+        android:textColorHint="#A6F7F3F3"
+        android:textColorLink="#CD111111"
+        android:textCursorDrawable="?attr/colorControlHighlight"
+        android:inputType="textPassword"
+        app:backgroundTint="#80000000" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:textColor="#BA0202"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button1_rectangle"
+        android:onClick="LoginAccount"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="RegisterPage"
+        android:text="@string/need_an_account_register"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+</RelativeLayout>

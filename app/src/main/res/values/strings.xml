@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SqlDatabase</string>
+    <string name="have_an_account_login">Have an account? <u>Login</u></string>
+    <string name="need_an_account_register">Need an account? <u>Register</u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Welcome">Welcome to Relax</string>
+    <string name="introUs">This app is a Stress Management application and helping you in relieving stress.We are provides breathing exercises to help you clam down and de-stress. Stress testing are provided to allow you to understand more about yourself. Music and video section to aid relaxation.</string>
+    <string name="tq">Thank you for your support!</string>
+    <string name="TitleAboutUs">About Us</string>
+    <string name="TitleHome">Home</string>
+    <string name="TitleVideo">Video</string>
+    <string name="TitleTesting">Testing</string>
+    <string name="TestingDesc">This stress test use the Perceived Stress Scale(PSS). you will be asked a series of multiple choice lifestyle questions around common stressors. At the end of the test you will be given a score</string>
+    <string name="txtContact">Contact</string>
+    <string name="select_one_choices">Select one choices</string>
+    <string name="reset">Reset</string>
+    <string name="breathe">Breathe</string>
+    <string name="stop">Stop</string>
+    <string name="rowTitle">Title</string>
+    <string name="guidetxt">Breathe</string>
+</resources>
